@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  web:
+    image: "aditya223221/webapp:latest"
+    ports:
+      - "8003:3000"
